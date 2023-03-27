@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "eab/program-directory",
+  "version": "0.1.0",
+  "title": "Program Directory",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Display all programs with search and filter options.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "eab-program-directory",
+  "editorScript": "file:./index.js"
+}
