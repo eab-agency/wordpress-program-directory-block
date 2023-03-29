@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
   "name": "eab/program-directory",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "title": "Program Directory",
   "category": "widgets",
   "icon": "list-view",
@@ -11,5 +11,11 @@
     "html": false
   },
   "textdomain": "eab-program-directory",
-  "editorScript": "file:./index.js"
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "programType": {
+      "type": "string",
+      "default": "all"
+    }
+  }
 }

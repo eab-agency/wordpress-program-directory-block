@@ -1,6 +1,6 @@
 {
 	"name": "eab-program-directory",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "A Gutenberg block that will display all programs with search and filter options.",
 	"author": "EAB",
 	"license": "GPL-2.0-or-later",
